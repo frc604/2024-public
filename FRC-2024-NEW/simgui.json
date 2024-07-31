@@ -1,0 +1,273 @@
+{
+  "NTProvider": {
+    "types": {
+      "/AdvantageKit/RealOutputs/Robot Viz": "Mechanism2d",
+      "/AdvantageKit/RealOutputs/Swerve Viz": "Mechanism2d",
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Auto Chooser": "String Chooser",
+      "/SmartDashboard/VisionSystemSim-main/Sim Field": "Field2d"
+    },
+    "windows": {
+      "/AdvantageKit/RealOutputs/Robot Viz": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/AdvantageKit/RealOutputs/Swerve Viz": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Auto Chooser": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/VisionSystemSim-main/Sim Field": {
+        "Localizer": {
+          "color": [
+            0.9803921580314636,
+            0.7137255072593689,
+            0.01568627543747425,
+            255.0
+          ],
+          "length": 0.8899999856948853,
+          "width": 0.8899999856948853
+        },
+        "Localizer Raw": {
+          "color": [
+            202.4999542236328,
+            0.0,
+            255.0,
+            255.0
+          ],
+          "length": 0.8899999856948853,
+          "width": 0.8899999856948853
+        },
+        "Odometry": {
+          "color": [
+            0.0,
+            1.0,
+            1.0,
+            255.0
+          ],
+          "length": 0.8899999856948853,
+          "width": 0.8899999856948853
+        },
+        "Robot": {
+          "length": 0.8899999856948853,
+          "width": 0.8899999856948853
+        },
+        "Target Pose": {
+          "color": [
+            0.08823537826538086,
+            1.0,
+            0.0,
+            255.0
+          ],
+          "length": 0.8899999856948853,
+          "width": 0.8899999856948853
+        },
+        "apriltag": {
+          "image": "./images/tag-blue.png",
+          "length": 0.5,
+          "width": 0.5
+        },
+        "bottom": 1476,
+        "cameras": {
+          "arrowColor": [
+            0.8823529481887817,
+            1.0,
+            0.0,
+            255.0
+          ],
+          "length": 0.10000000149011612,
+          "weight": 0.0,
+          "width": 0.10000000149011612
+        },
+        "height": 8.210550308227539,
+        "left": 150,
+        "note": {
+          "arrows": false,
+          "color": [
+            1.0,
+            0.5,
+            0.0,
+            255.0
+          ],
+          "length": 0.36000001430511475,
+          "style": "Box/Image",
+          "width": 0.36000001430511475
+        },
+        "right": 2961,
+        "top": 79,
+        "traj": {
+          "arrows": false,
+          "selectable": false,
+          "style": "Line"
+        },
+        "visibleTargetPoses": {
+          "image": "./images/tag-green.png",
+          "length": 0.5,
+          "width": 0.5
+        },
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  },
+  "Plot": {
+    "Plot <0>": {
+      "plots": [
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 2,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Chassis x error"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Chassis y error"
+            }
+          ]
+        },
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 2,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Chassis theta error (degrees)"
+            }
+          ]
+        }
+      ],
+      "window": {
+        "name": "Swerve Error"
+      }
+    },
+    "Plot <1>": {
+      "plots": [
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 2,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Intake: Current Angle (deg)"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Intake: Target Angle (deg)"
+            }
+          ]
+        },
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 2,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Elevator: Current Height (in)"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Elevator: Target Height (in)"
+            }
+          ]
+        },
+        {
+          "backgroundColor": [
+            0.0,
+            0.0,
+            0.0,
+            0.8500000238418579
+          ],
+          "height": 2,
+          "series": [
+            {
+              "color": [
+                0.2980392277240753,
+                0.44705885648727417,
+                0.6901960968971252,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Launcher: Current Arm Angle (deg)"
+            },
+            {
+              "color": [
+                0.8666667342185974,
+                0.5176470875740051,
+                0.32156863808631897,
+                1.0
+              ],
+              "id": "NT:/SmartDashboard/Launcher: Target Arm Angle (deg)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
